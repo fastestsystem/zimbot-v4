@@ -500,7 +500,7 @@ var DADYDR = `
 
  ┌───〔 *_ᴛʜᴀɴᴋs ᴛᴏ_* 〕
  ┊ʏᴏᴜʀ ᴄʀᴇᴅɪᴛꜱ
- └───〔 *_ᴢɪᴍ ʙᴏᴛ ɪɴᴄ_* 〕
+ └───〔 *fastest-system.com* 〕
  `
 let message = await prepareWAMessageMedia({ image: bufu, jpegThumbnail:bufu }, { upload: ZimBotInc.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -508,11 +508,11 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: DADYDR,
-hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+hydratedFooterText: `Bot by Team Fastest System`,
 hydratedButtons:  [{        
     "urlButton": {
       "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "url": "https://www.youtube.com/@ahmadcodeline"
     }
 }, {
 quickReplyButton: {
